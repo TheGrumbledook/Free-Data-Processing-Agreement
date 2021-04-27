@@ -12,7 +12,7 @@
 Simply put the content of modal.html on your pages where you want the modal to appear. Include the content of modal.js in your script file and content of modal.css to your styles file. Resources from the *res* folder also must be presented on all the pages where modal appears. Please note that having **#privacy-popup** in the URL will open popup automatically after opening the page (if you include modal.js, of course).
 
 Besides this please
-- replace **/policy.html** with the link to your privacy page.
+- replace **/privacy.html** with the link to your privacy page.
 - adjust the text of the modal so it reflects your company.
 
 ## Privacy
@@ -22,3 +22,5 @@ Privacy is the full privacy page (not the modal). It's a piece of layout that co
 ## Demo
 
 The demo page contains both privacy and modal layout as well as the simplest page structure. To see a proper demo page you need to open with a local server since because of the browser's security settings you won't see SVG icons if sprite.svg is stored locally. But with no local server, you will see everything else properly except the icons. To open the popup simply add **#privacy-popup** to the URL.
+
+Note the separate README.md file for information on how you can use the policy, including the license.
